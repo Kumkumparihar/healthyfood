@@ -1,0 +1,1331 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-image: url(bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#main #nav{
+    height: 15%;
+    width: 100%;
+    background-color: rgba(3, 65, 3, 0.504);
+     display: flex;
+    
+}
+
+#nav img{
+    width: 120px;
+    /* color: white; */
+    margin: 20px 30px;
+    background-color: white;
+    
+}
+#nav1{
+ 
+    height: 70%;
+    width: 88%;
+    background-color:rgb(4, 46, 4);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 32px;
+
+}
+#nav1 a{
+    /* margin-left: 40px; */
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+#nav1 .CC{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgb(217, 205, 28);
+    margin-left: 190px;
+}
+.CC i{
+    font-size: 26px;
+}
+#nav1 .DD{
+    padding: 8px 16px;
+    border: none;
+    background-color: rgb(37, 183, 37);
+    color: white;
+    text-transform: capitalize;
+    border-radius: 20px;
+}
+#main h4{
+    position: absolute;
+    top: 30%;
+    left:12% ;
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+  
+
+}
+#main h1{
+    position: absolute;
+    top: 38%;
+    left:12.5% ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    font-size: 70px;
+    color: white;
+}
+#main .box{
+    height: 6%;
+    position: absolute;
+    top: 63%;
+    left: 13%;
+    width: 20%;
+    /* background-color: blue; */
+    
+}
+#main .yellow{
+    height: 35px;
+    width: 120px;
+    background-color:rgb(233, 218, 16) ;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+}
+#main .green{
+    height: 35px;
+    width: 120px;
+    background-color: rgb(37, 183, 37);
+    border: none;
+    border-radius: 25px;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+}
+#main .V{
+    position: absolute;
+    top: 6%;
+    left: 37%;
+    height: 100%;
+    width: 50%;
+}
+#nav2{
+    height: 15%;
+    width: 100%;
+    background-color: rgba(3, 65, 3, 0.504);
+    position: absolute;
+    bottom: 0%;
+    display: flex;
+
+}
+#nav2 .box2{
+    height: 100%;
+    width: 25%;
+    background-color: ;
+    border-right: 1px solid black;
+    /* text-align: center; */
+}
+.box2 h5{
+    text-transform: capitalize;
+    margin-top: -50px;
+
+    
+    color: white;
+    font-size: 17px;
+    margin-left: 150px;
+}
+.box2 p{
+    color: rgb(138, 135, 135);
+    text-transform: capitalize;
+    margin-left: 150px;
+    /* margin-bottom: 40px; */
+    margin-top: -2px;
+    font-weight: 100;
+}   
+.box2 img{
+    height: 90px;
+    margin-left: 70px;
+    /* margin-top: 25px; */
+   padding-top: 30px;
+    
+} 
+#main2{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(5, 86, 5);
+    display: flex;
+}
+#main2 .box5{
+    height: 100%;
+    width: 50%;
+    /* background-color: aquamarine; */
+}
+.box5 #green{
+    height: 70%;
+    width: 15%;
+    background-color: green;
+   position: absolute;
+   left: 10%;
+   /* bottom: -88.5%; */
+   bottom: -82%;
+   
+}
+.box5 #red{
+    height: 15.7%;
+    width: 19%;
+    border-radius: 10px;
+    background-color:green;
+    position: absolute;
+   left: 14.5%;
+   /* bottom: -88.5%; */
+   bottom: -82%;
+   z-index: 999;
+   
+}
+.box5 .kp{
+    height: 200px;
+    rotate: -30deg;
+    position: absolute;
+    left: 15%;
+    bottom: -38.5%;
+    color: rgb(5, 86, 5);
+    background-color: rgb(5, 86, 5) ;
+    border-radius: 50%;
+}
+.box5 .kl{
+    height: 80%;
+   width: 40%;
+   /* margin: 40px; */
+   position: absolute;
+   /* bottom: -90%; */
+   bottom: -84%;
+   left: 3%;
+   z-index: 99999;
+}
+.box5 .logo{
+    height: 90px;
+    rotate: -30deg;
+    position: absolute;
+    left: 30%;
+    bottom: -23%;
+}
+.box6{
+    height: 100%;
+    width: 50%;
+   /* background-color: blueviolet; */
+}
+.box6 h6{
+    margin-top: 80px;
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: rgb(72, 232, 13);
+
+}
+.box6 h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    text-transform: capitalize;
+    color: white;
+
+}
+.box6 button{
+    height: 40px;
+    width: 170px;
+    background-color: rgba(3, 65, 3, 0.377) ;
+    border: none;
+    color: white;
+    /* text-align: center; */
+    
+    
+}
+.box6  i{
+       color: yellow;
+}
+.box6 h5{
+    font-size: 12px;
+    color:  rgb(64, 182, 21);
+}
+.box6 p{
+    font-size: 14px;
+    color: white;
+}
+.box6 .line{
+    width: 50%;
+    height: 0.1%;
+    background-color: rgb(224, 216, 216);
+    margin-top: 20px;
+}
+.box6 #kum{
+    height: 10%;
+    width: 80%;
+    /* background-color: blue; */
+    margin-top: 45px ;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+#kum .b{
+    height: 80px;
+    /* margin-bottom: 0px; */
+}
+#kum h4{
+    font-size: 20px;
+    text-transform: capitalize;
+    color: white;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 10px;
+    /* position: absolute; */
+    /* margin-bottom: -60px; */
+}
+.box6 .yellow{
+    height: 35px;
+    width: 150px;
+    background-color:rgb(233, 218, 16) ;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    /* margin-top: 20px; */
+    /* margin-left: 100px; */
+    /* position: absolute; */
+    margin-bottom: -60px;
+}
+
+
+
+
+
+#main3{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(5, 86, 5) ;
+
+}
+#main3 #nav{
+    height: 20%;
+    width: 100%;
+    background-color:transparent;
+    display: block;
+    /* justify-content: baseline; */
+    text-align: center;
+
+}
+#nav h6{
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: rgba(92, 195, 55, 0.725);
+}
+#nav h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    text-transform: capitalize;
+    color: white;
+
+}
+#main3 #nav1{
+    height: 25%;
+    width: 65%;
+    /* background-color: aquamarine; */
+    margin-top: 7%;
+    margin-left: 18%;
+}
+#nav1 .box{
+    width: 23%;
+    height: 100%;
+    background-color: rgba(4,95 ,4,0.455);
+    text-align: center;
+}
+.box h4{
+    font-size: 20px;
+    text-transform: capitalize;
+   color: white;
+    margin-top: 40px;
+}
+.box p{
+    color: rgb(213, 205, 205);
+    font-weight: 100;
+}
+.box .circle{
+    height: 130px;
+    width: 130px;
+    border-radius: 5cm;
+    /* background-color: blueviolet; */
+    margin-left: 22%;
+    margin-top: -38%;
+}
+.circle .sd{
+    height: 100%;
+    padding: 2x;
+    /* position: fixed; */
+    
+}
+.circle .sdd{
+    height: 130px;
+    width: 130px;
+    border-radius: 5cm;
+}
+#main3 #mahi{
+    height: 25%;
+    width: 65%;
+    /* background-color: aquamarine; */
+    margin-top: 4%;
+    margin-left: 18%;
+    display: flex;
+    justify-content: space-around;
+}
+#mahi #okii{
+    height: 100%;
+    width: 40%;
+    background-color: rgba(4,95 ,4,0.455);
+    border: 1px solid rgb(8, 96, 8);
+}
+#okii h6{
+    font-size: 16px;
+    color: white;
+    font-family: "Shadows Into Light", cursive;
+    
+}
+#okii h1{
+    font-size: 30px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#okii .ryt{
+    padding: 10px 30px;
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(233, 218, 16);
+    color: white;
+    font-size: 16px;
+    margin-top: 12px;
+}
+#okii .kii{
+    height: 20%;
+    position: absolute;
+    right: 55%;
+    top: 272%;
+}
+#okii .wee{
+    height: 20%;
+    position: absolute;
+    top: 272%;
+    right: 22%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#main4{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(5, 86, 5);
+}
+#main4 #nav{
+    height: 20%;
+    width: 100%;
+    background-color:transparent;
+    display: block;
+    text-align: center;
+}
+#nav h6{
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: rgb(72, 232, 13);
+}
+#nav h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    text-transform: capitalize;
+    color: white;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#main4 #container{
+    height: 50%;
+    width: 94%;
+    /* background-color: aquamarine; */
+    margin:  45px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+#container .box{
+    height: 100%;
+    width: 15%;
+    background-color: white;
+    text-align: center
+}
+.box img{
+    height: 40%;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.box .E{
+    margin-left: 13px;
+}
+.box i{
+    color: rgb(238, 224, 39);
+    font-size: large;
+    /* margin-top: -20px; */
+}
+.box h4{
+    font-size: 20px;
+    color: black;
+    text-transform: capitalize;
+    text-align: center;
+}
+.box h5{
+    font-size: 15px;
+    color: rgb(176, 165, 165);
+    text-align: center;
+    margin-top: 5px;
+}
+.box .btn{
+    padding: 7px 25px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background-color: rgb(37, 183, 37) ;
+    text-align: center;
+    margin-top: 5px;
+
+    
+}
+#main5{
+    height: 100%;
+    width: 100%;
+    background-color:  rgb(5, 86, 5);
+}
+#main5 .leaf{
+    rotate: -55deg;
+}
+#main5 #ashwni{
+    height: 70%;
+    width: 30%;
+    /* background-color: coral; */
+    position: absolute;
+    margin-left: 12%;
+    margin-top: -10%;
+}
+#ashwni  h6{
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: rgb(72, 232, 13);
+}
+#ashwni h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    text-transform: capitalize;
+    color: white;
+
+}
+
+#bav {
+    height: 30%;
+    width: 100%;
+    /* background-color: lightblue; */
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 15px;
+}
+#bav .save {
+    height: 100%;
+    width: 40%;
+    background-color: rgba(6, 68, 6, 0.455) ;
+
+}
+#bav .spend{
+    height: 100%;
+    width: 40%;
+    background-color: rgba(6, 68, 6, 0.455) ;
+
+}
+#bav h3{
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.jj{
+    height: 49%;
+    width: 58%;
+}
+#dav {
+    height: 30%;
+    width: 100%;
+    /* background-color: rgb(37, 193, 246); */
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 10px
+}
+#dav .loss {
+    height: 100%;
+    width: 40%;
+    background-color:  rgba(6, 68, 6, 0.455)  ;
+
+}
+#dav .profit{
+    height: 100%;
+    width: 40%;
+    background-color:  rgba(6, 68, 6, 0.455)  ;
+
+}
+#dav h3{
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+
+#soniya{
+    height: 100%;
+    width: 50%;
+    /* background-color: blue; */
+   margin-left: 50%;
+   margin-top: -16.9%;
+   position: relative;
+   overflow: hidden;
+} 
+#soniya #blue{
+    height: 80%;
+    width: 80%;
+    background-color: aqua;
+    /* background-image: url(https://i.pinimg.com/564x/ba/50/65/ba5065d35d7bbc195584e36832f8149e.jpg) */
+    border-radius: 60px;
+    rotate: 45deg;
+    margin-left: 10%;
+    margin-top: -48%;
+    overflow: hidden;
+    border: 4px solid rgb(5, 42, 5);
+}
+#blue img{
+    width: 133%;
+    position: absolute;
+    top: 15%;
+    left: 20%;
+}
+#soniya #redy{
+    height: 80%;
+    width: 80%;
+    background-color:red;
+    border-radius: 60px;
+    rotate: 45deg;
+    margin-left: 13%;
+    margin-top: 39%;
+    overflow: hidden;
+    border: 4px solid rgb(5, 42, 5);
+}
+#redy img{
+    width: 129%;
+    rotate: -45deg;
+    position: absolute;
+    top: -9%;
+    left: -40%;
+}
+#soniya #yllw{
+    height: 60%;
+    width: 60%;
+    background-color:rgb(33, 168, 33);
+    border-radius: 60px;
+    rotate: 45deg;
+    position: absolute;
+    top: 20%;
+    margin-left: 70%;
+    z-index: 9999;
+}
+#main5 #sqr{
+    height: 230px;
+    width: 230px;
+    background-color: yellow;
+    border-radius: 60px;
+    rotate: 45deg;
+    position: absolute;
+    top: 457%;
+    left: 52%;
+    transform: translate(-50%,-50%);
+}
+#main6{
+    height: 100%;
+    width: 100%;
+    background-color:rgb(5, 86, 5);
+}
+#main6  #nav{
+    height: 20%;
+    width: 100%;
+    background-color:transparent;
+    text-align: center;
+    display: block;
+    
+}
+#nav h6{
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: rgb(72, 232, 13);
+    
+
+}
+#nav h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    text-transform: capitalize;
+    color: white;
+
+}
+#main6 #kumud{
+    height: 60%;
+    width: 70%;
+    margin-left: 15%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+#kumud #kusum{
+    height: 50%;
+    width: 28%;
+    /* background-color: aquamarine; */
+    background-color: rgba(9, 33, 9, 0.504);
+    margin-top: 20.1%;
+}
+#kusum #kiran{
+    height: 90px;
+    width: 20px;
+    /* background-color: blueviolet; */
+    margin-top: 70px;
+}
+#kiran i{
+    color: white;
+    margin-top: 10px;
+    background-color:  rgba(3, 65, 3, 0.504);
+    border-radius: 5cm;
+    font-size: 20px;
+}
+#kusum .circla{
+    height: 300px;
+    width: 300px;
+    /* background-color: rgba(3, 65, 3, 0.504); */
+    background-color: rgba(9, 33, 9, 0.504);
+    border-radius: 5cm;
+    margin-top: -100%;
+    
+   
+}
+.circla img{
+   margin-top: -22px;
+   margin-left: -80px;
+}
+.circla .miss{
+    margin-left: -130px;
+}
+.circla .mr{
+    margin-left: -160px;
+    /* margin-top: -99%; */
+}
+#main6 #name{
+    height: 10%;
+    width: 70%;
+    margin-left: 15%;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+#name #nam{
+    height: 100%;
+    width: 32%;
+    color: white;
+    /* padding-top: -90px; */
+}
+#name .lemon{
+    height: 150px;
+    margin-top: -100px;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#main7{
+    height: 100%;
+    width: 100%;
+    /* background-color:rgb(5, 86, 5); */
+    background-image: url(https://i.pinimg.com/564x/56/2c/b3/562cb316663f82b8550c72e3d6cf1a9b.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   /* background-color: blueviolet; */
+}
+#main7 #main7a{
+    height: 100%;
+    width: 100%;
+    background-color:rgba(5, 86, 5, 0.892);
+    
+}
+#main7a #bt1{
+    height: 50%;
+    width: 17%;
+    /* background-color: coral; */
+    position: absolute;
+    left: 19%;
+    top: 616%;
+}
+
+#bt1 h6{
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: rgb(72, 232, 13);
+}
+#bt1 h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    text-transform: capitalize;
+    color: white;
+
+}
+#bt1 p{
+    font-size: 14px;
+    color:rgb(195, 192, 192);
+    margin-top: 10px;
+}
+#bt1 .view{
+    padding: 10px 20px;
+    background-color: yellow;
+    border-radius: 25px;
+    border: none;
+    color: white;
+    font-weight: 800;
+    margin-top: 20px;
+
+
+}
+#main7a #bpl{
+    height: 20%;
+    width: 5%;
+    /* background-color: blue; */
+    position: absolute;
+    left: 36%;
+    top: 641%;
+    display: block;
+    text-align: center;
+    
+}
+#bpl i{
+    font-size: 40px;
+    background-color: transparent;
+    border-radius: 5cm;
+    border: 2px solid rgb(195, 192, 192);
+    margin-top: 20px;
+}
+#main7 .circli{
+    height: 400px;
+    width: 400px;
+    border-radius: 5cm;
+    /* background-color: brown; */
+    background-image: url(https://i.pinimg.com/564x/d3/97/4d/d3974df0bfe0e029adce1e2780ec65a5.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    right: 15%;
+    margin-top: 120px;
+    /* z-index: 9999; */
+  
+   
+}
+#main7 .mint{
+    height: 70px;
+    position: absolute;
+    right: 15%;
+    margin-top: 104px;
+    z-index: 999;
+    rotate: 33deg;
+}
+#main7 #msg{
+    height: 350px;
+    width: 350px;
+    /* background-color: aqua; */
+    position: absolute;
+    right: 35%;
+    margin-top: 120px;
+    z-index: 9999999;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 39% 100%, 50% 75%, 0% 75%);
+    background-color:  rgb(14, 58, 14);
+    text-align: center;
+}
+#msg .mgs{
+    height: 50px;
+    width: 50px;
+    border-radius: 5cm;
+    border: none;
+    background-color: yellow;
+    font-size: 30px;
+    /* margin-left: 45%; */
+    margin-top: 25px;
+
+}
+#msg p {
+    font-size: 13px;
+    color: rgb(195, 192, 192);
+    padding: 10px 20px;
+    line-height: 20px;
+}
+#msg .ceo{
+    height: 40px;
+    width: 200px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-left: 68px;
+}
+.ceo h5{
+    color: white;
+    font-size: 14px;
+    /* margin-top: 10px; */
+}
+.ceo h6{
+    color: rgb(72, 232, 13);
+    font-size: 13px;
+    margin-top: 3px;
+    
+}
+#main7 .series{
+    height: 100px;
+    width: 100px;
+    border-radius: 5cm;
+    /* background-color: blueviolet; */
+    background-image: url(kelvin.png);
+    background-position: center;
+    background-size: cover;
+   
+    position: absolute;
+    right: 49%;
+    margin-top: 430px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+#main8{
+    height: 140%;
+    width: 100%;
+    background-color:  rgb(5, 86, 5);
+
+}
+#nav{
+    height: 30%;
+    width: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: space-around;
+}
+#nav #soni{
+    height: 100%;
+    width: 23%;
+    /* background-color: darkorchid; */
+    /* position: relative; */
+}
+#soni .az{
+    width: 100%;
+    height: 100%;
+    margin-left: -.3px;
+    margin-top: -1.5px;
+    
+}
+#nav11{
+    height: 20%;
+    width: 100%;
+    /* background-color: bisque; */
+    text-align: center;
+    margin-top: 40px;
+
+}
+#nav11   h6{
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: rgb(72, 232, 13);
+}
+#nav11 h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    text-transform: capitalize;
+    color: white;
+
+}
+#payal{
+    height: 30%;
+    width: 70%;
+    /* background-color: coral; */
+    margin-left: 15%;
+    display: flex;
+    justify-content: space-around;
+}
+#payal #ten{
+        height: 100%;
+        width: 30%;
+        /* background-color: darksalmon; */
+}
+#ten img{
+    height: 100%;
+    width: 100%;
+}
+#anju{
+    height: 15%;
+    width: 70%;
+    /* background-color: brown; */
+    display: flex;
+    justify-content: space-around;
+    margin-left: 15%;
+    margin-top: -110px;
+}
+#anju #am{
+    height: 100%;
+    width: 20%;
+    background-color: rgb(5, 86, 5) ;
+    text-align: center;
+    border: 2px solid rgb(5, 54, 5);
+}
+#am h5{
+    font-size: small;
+    text-transform: capitalize;
+    color: rgb(47, 163, 26);
+    margin-top: 20px;
+}
+#am h3{
+    font-size: 18px;
+    color: white;
+    margin-top: 9px;
+}
+#am .row{
+    height: 0.5%;
+    width: 75%;
+    margin-left: 28px;
+    margin-top: 30px;
+   background-color:  black;
+}
+#am #the{
+    height: 25px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    border: 1px solid rgb(4, 63, 4);
+    
+}
+#am p{
+    font-size: 12px;
+    color: rgb(220, 215, 215);
+    /* margin-top: 20px; */
+    
+}
+#am i{
+    color:rgb(224, 255, 219);
+}
+
+
+
+
+#main9{
+    height: 100%;
+    width: 100%;
+    background-color:rgb(5,86,5);
+    
+}
+#main9 .lofe{
+    height: 40px;
+    position: absolute;
+    left: 12%;
+    rotate: -45deg;
+    /* margin-left: 100px; */
+}
+#main9 #rect{
+    height: 20%;
+    width: 70%;
+    background-color: rgb(49, 216, 49);
+    margin-left: 15%;
+    border-radius: 40px;
+    margin-top: -5%;
+}
+#rect .NEWS{
+    height: 20px;
+}
+
+#main9 #book{
+      font-size: 60px;
+      margin-left: 250px;
+      margin-top: 20px;
+      color: white;
+     
+}
+#rect h6{
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-size: 14px;
+    color:white;
+    text-transform: capitalize;
+    margin-left: 15%;
+    padding-top: 50px;
+    /* position: fixed; */
+}
+#rect h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    text-transform: capitalize;
+    color: white;
+    margin-left: 15%;
+    /* position: fixed; */
+
+}
+#rect .wow{
+    height: 50px;
+    width: 330px;
+    background-color: rgb(233, 218, 16);
+    margin-left: 62%;
+    margin-top: -5%;
+}
+.wow input{
+    padding: 17px 49px;
+    border: none;
+}
+.wow input::placeholder{
+    font-size: 15px;
+}
+.wow i{
+    font-size: 33px;
+    color: white;
+    margin-left: 13px;
+    margin-top: 20px;
+    text-align: center;
+    
+}
+#main9 #maa{
+     height: 60%;
+     width: 100%;
+     background-color: rgba(57, 134, 57, 0.549);
+     display: flex;
+     justify-content: center;
+     text-align: left;
+     /* margin-top: 40px; */
+
+     
+     
+}
+#maa #pen{
+    height: 100%;
+    width: 20%;
+    /* background-color: blueviolet; */
+    margin-right: 40px;
+}
+
+#pen .en{
+    height: 15%;
+    color: white;
+    margin-top: 60px;
+    /* background-color: white; */
+}
+#pen h2{
+    font-size: 20px;
+    text-transform: capitalize;
+    color: white;
+    margin-top: 20px;
+}
+#pen #iconc{
+    height: 60px;
+    width: 170px;
+    /* background-color: blue; */
+    margin-top: 40px;
+   
+
+}
+#iconc i{
+    font-size: 30px;
+    margin-right: 14px;
+    background-color: rgba(33, 93, 33, 0.348);
+    border-radius: 30px;
+}
+#maa #scale{
+    height: 100%;
+    width: 10%;
+    /* background-color: burlywood; */
+    margin-right: 40px;
+}
+#scale h2{
+    font-size: 20px;
+    text-transform: capitalize;
+    color: white;
+    margin-top: 95px;
+}
+#scale p{
+    color: rgb(228, 219, 219);
+    text-transform: capitalize;
+    margin-top: 20px;
+}
+#maa #erase{
+    height: 100%;
+    width: 15%;
+    /* background-color: chartreuse; */
+    margin-right: 40px;
+}
+#erase h2{
+    font-size: 20px;
+    text-transform: capitalize;
+    color: white;
+    margin-top: 95px;
+}
+#erase p{
+    margin-top: 20px;
+    color: rgb(230, 230, 230);
+}
+#erase h6{
+    color: white;
+    font-size: 20px;
+    margin-top: 40px;
+}
+#erase .clm{
+    height: 0.5%;
+    width: 45%;
+    background-color: white;
+}
+#maa #clr{
+    height: 100%;
+    width: 20%;
+    /* background-color: crimson; */
+}
+#clr h2{
+    font-size: 20px;
+    text-transform: capitalize;
+    color: white;
+    margin-top: 95px;
+}
+#clr #six{
+    height: 30%;
+    width: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#six .team{
+    height: 90px;
+    width: 90px;
+    /* background-color: darkmagenta; */
+    border-radius: 15px;
+}
+.team img{
+    height: 90px;
+    width: 90px;
+    border-radius: 15px;
+}
+#clr #seven{
+    height: 30%;
+    width: 100%;
+    /* background-color: hotpink; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#seven .ring {
+    height: 90px;
+    width: 90px;
+    background-color: darkmagenta;
+    border-radius: 15px;
+}
+
+.ring img{
+    height: 90px;
+    width: 90px;
+    border-radius: 15px;
+}
+#main9 #nav43{
+    height: 10%;
+    width: 70%;
+    margin-left: 15%;
+    /* background-color: bisque; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#nav43 p{
+    color: gray;
+}
+#nav43 h2{
+    color: white;
+    font-size: 20px;
+}
+
